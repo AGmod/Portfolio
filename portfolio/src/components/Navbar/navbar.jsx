@@ -6,11 +6,11 @@ const Navbar = () => {
   return (
     <nav className='navbar'>
         <div className='menu'>
-            <Link className='menuItem'>Home</Link>
-            <Link className='menuItem'>About</Link>
-            <Link className='menuItem'>Skills</Link>
-            <Link className='menuItem'>Projects</Link>
-            <Link className='menuItem'>Contact</Link>
+            <Link activeClass='active' to='home' smooth={true} spy={true} offset={-100} className='menuItem'>Home</Link>
+            <Link activeClass='active' to='about' smooth={true} spy={true} offset={-80} className='menuItem'>About</Link>
+            <Link activeClass='active' to='skills' smooth={true} spy={true} offset={-100} className='menuItem'>Skills</Link>
+            <Link activeClass='active' to='projects' smooth={true} spy={true} offset={-100} className='menuItem'>Projects</Link>
+            <Link activeClass='active' to='contact' smooth={true} spy={true} offset={-80} className='menuItem'>Contact</Link>
         </div>
     </nav>
   )

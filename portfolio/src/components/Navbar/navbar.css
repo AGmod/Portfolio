@@ -1,0 +1,30 @@
+.navbar {
+    background: #8AAAE5;
+    height: 5rem;
+    width: 100vw;
+    max-width: 100rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+
+}
+
+.menuItem {
+    margin: 1rem;
+    cursor: pointer;
+    padding: 0.5rem;
+    border: 1px solid white;
+    border-radius: 1rem;
+
+}
+
+.menuItem:hover {
+    color: white;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid white;
+}

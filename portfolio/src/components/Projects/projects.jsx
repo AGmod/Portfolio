@@ -1,7 +1,8 @@
 import React from 'react'
 import './projects.css';
 import AstroDex from '../Assets/AstroDex.png';
-import Isabel from '../Assets/Isabel.png';
+import reft from '../Assets/reft.png';
+import secure from '../Assets/secure.png';
 
 const Projects = () => {
   return (
@@ -16,14 +17,14 @@ const Projects = () => {
                     </div>
             </div>
             <div className='projectsItem'>
-                <img src={Isabel} alt='Isabel' className='projectsItemImg' />
+                <img src={reft} alt='reft' className='projectsItemImg' />
                     <div className='projectsDesc'>
                         <h2>rEFT</h2>
                         <p>This is a project I worked on as my capstone project. My group made a site called rEFT which stands for Real Estate Fungible Token.</p>
                     </div>
             </div>
             <div className='projectsItem'>
-                <img src='' alt='' className='projectsItemImg' />
+                <img src={secure} alt='secure' className='projectsItemImg' />
                     <div className='projectsDesc'>
                         <h2>Secure Chat</h2>
                         <p>This is a secure chat program made completely in python for my cryptography class. We are supposed make a chat service that allows users to sign in and message each other without any worries of their data being leaked.</p>

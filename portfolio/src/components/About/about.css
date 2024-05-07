@@ -8,12 +8,28 @@
     justify-content: center;
     text-align: center;
     margin: 1rem auto;
+    margin-bottom: 10rem;
 }
 
 .aboutTitle {
     font-size: 3rem;
     font-weight: 600;
     padding-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.aboutList {
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+}
+
+.aboutItem {
+    background: #8AAAE5;
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 1rem;
     margin-bottom: 1rem;
 }
 

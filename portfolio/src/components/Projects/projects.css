@@ -47,5 +47,14 @@
     font-weight: 200;
 }
 
+.hyperLink {
+    color: black;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.hyperLink:hover {
+    color: white;
+}
 
 

@@ -16,3 +16,4 @@ In case the deploymen is not working, you can download the contacts of the code.
 
 * Referenced used to help create this portfolio page
 - https://www.youtube.com/watch?v=4ag1LsgIUc0
+- https://www.youtube.com/watch?v=Q9n2mLqXFpU&ab_channel=PedroTech

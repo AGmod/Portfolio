@@ -34,7 +34,7 @@ const About = () => {
             <h2>Strengths</h2>
             <p>Some of my strengths include orginization, communication, and adaptability. 
               I will be organized with my work and stay on top of it to finish tasks by the deadline. 
-              I am also good with communicating with my peers making sure my peers and I are are </p>
+              I am also good with communicating with my peers making sure my peers and I are on the same page. </p>
           </div>
         </div>
       </div>

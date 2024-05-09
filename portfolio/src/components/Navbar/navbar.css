@@ -1,3 +1,4 @@
+/* Overall styling for the navbar */
 .navbar {
     background: #8AAAE5;
     height: 5rem;
@@ -14,6 +15,7 @@
 
 }
 
+/* Styling for Items in the navbar */
 .menuItem {
     margin: 1rem;
     cursor: pointer;
@@ -23,6 +25,7 @@
 
 }
 
+/* Changes the styling of the Items when the cursor is moved above it */
 .menuItem:hover {
     color: white;
     padding-bottom: 0.5rem;
@@ -30,6 +33,7 @@
     border-bottom: 3px solid white;
 }
 
+/* Changes the styling of the Item in the navbar when that section is being viewed */
 .active {
     color:white;
     padding-bottom: 0.5rem;

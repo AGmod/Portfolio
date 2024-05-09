@@ -1,11 +1,16 @@
-import React from 'react'
-import './about.css';
+import React from 'react' // Import React library
+import './about.css'; // Import CSS styling
 
+// Component to display the about section
 const About = () => {
   return (
+
+    // Section that contains all the about information
     <section id='about'>
       <span className='aboutTitle'>A brief description about me</span>
       <div className='aboutList'>
+
+        {/* About item for my Education */}
         <div className='aboutItem'>
           <div className='aboutItemText'>
             <h2>Education</h2>
@@ -14,12 +19,16 @@ const About = () => {
               I am expected graduate this Spring of 2024.</p>
           </div>
         </div>
+
+        {/* About item for my Hobbies */}
         <div className='aboutItem'>
           <div className='aboutItemText'>
             <h2>Hobbies</h2>
             <p>In my spare time, I like to repair old tech items like consoles and phones. I also like to play the piano and mix music on my free time.</p>
           </div>
         </div>
+
+        {/* About item for my Strengths */}
         <div className='aboutItem'>
           <div className='aboutItemText'>
             <h2>Strengths</h2>
@@ -33,4 +42,5 @@ const About = () => {
   )
 }
 
+// Exports about component to be used in other parts of the application
 export default About

@@ -1,14 +1,19 @@
-import React from 'react'
-import './projects.css';
-import AstroDex from '../Assets/AstroDex.png';
-import reft from '../Assets/reft.png';
-import secure from '../Assets/secure.png';
+import React from 'react' // Import React library
+import './projects.css'; // Import the CSS styling
+import AstroDex from '../Assets/AstroDex.png'; // Import AstroDex from assets folder
+import reft from '../Assets/reft.png'; // Import reft from assets folder
+import secure from '../Assets/secure.png'; // Import secure from assets folder
 
+// Component to display the projects section
 const Projects = () => {
   return (
+
+    // Section that contains all the projects information
     <section id='projects'>
         <span className='projectsTitle'>Here is my list of projects</span>
         <div className='projectsList'>
+
+            {/* Project item for AstroDex */}
             <div className='projectsItem'>
                 <img src={AstroDex} alt='AstroDex' className='projectsItemImg' />
                     <div className='projectsDesc'>
@@ -20,6 +25,8 @@ const Projects = () => {
                         </p>
                     </div>
             </div>
+
+            {/* Project item for reft */}
             <div className='projectsItem'>
                 <img src={reft} alt='reft' className='projectsItemImg' />
                     <div className='projectsDesc'>
@@ -33,6 +40,8 @@ const Projects = () => {
                         </p>
                     </div>
             </div>
+
+            {/* Project item for Secure Chat */}
             <div className='projectsItem'>
                 <img src={secure} alt='secure' className='projectsItemImg' />
                     <div className='projectsDesc'>
@@ -49,4 +58,5 @@ const Projects = () => {
   )
 }
 
+// Exports the project component to be used in other parts of the application
 export default Projects

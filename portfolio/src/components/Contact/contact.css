@@ -1,3 +1,4 @@
+/* Ovverall styling for the contact section */
 #contact {
     min-height: calc(100vh - 4rem);
     width: 100vw;
@@ -10,18 +11,21 @@
     justify-content: center;
 }
 
+/* Styling for the title from the contact section */
 .contactTitle {
     font-size: 3rem;
     margin-bottom: 1rem;
 }
 
+/* Styling for the description in the contact section */
 .contactDesc {
     padding: 1rem;
     font-size: medium;
-    font-weight: 300;
+    font-weight: 400;
 }
 
-.contactForm {
+/* Styling for the container that has the different contact information */
+.contactList {
     margin: 1rem;
     display: flex;
     flex-direction: column;
@@ -31,55 +35,30 @@
     max-width: 60rem;
 }
 
-.name {
+/* Styling for the email component of the contact section */
+.contactEmail {
     font-size: medium;
-    width: 100%;
+    width: 30%;
     max-width: 40rem;
     margin: 0.5rem;
     padding: 0.5rem 1rem;
     color: black;
+    background: #8AAAE5;
     border: 1px solid black;
     border-radius: 1rem;
 
 }
 
-.email {
+/* Styling for the phone number component fo the contact section */
+.contactPhone {
     font-size: medium;
-    width: 100%;
+    width: 30%;
     max-width: 40rem;
     margin: 0.5rem;
     padding: 0.5rem 1rem;
     color: black;
+    background: #8AAAE5;
     border: 1px solid black;
     border-radius: 1rem;
 }
 
-.number {
-    font-size: medium;
-    width: 100%;
-    max-width: 40rem;
-    margin: 0.5rem;
-    padding: 0.5rem 1rem;
-    color: black;
-    border: 1px solid black;
-    border-radius: 1rem;
-}
-
-.message {
-    font-size: medium;
-    width: 100%;
-    max-width: 40rem;
-    margin: 0.5rem;
-    padding: 0.5rem 1rem;
-    color: black;
-    border: 1px solid black;
-    border-radius: 1rem;
-}
-
-.submitButton {
-    background: white;
-    border: 1px solid black;
-    border-radius: 1rem;
-    margin: 1rem;
-    padding: 0.75rem 3.5rem;
-}

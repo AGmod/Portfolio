@@ -1,3 +1,4 @@
+/* Overall styling for the skills section */
 #skills {
     overflow: hidden;
     width: 100vw;
@@ -10,6 +11,7 @@
     margin: 5rem auto;
 }
 
+/* Styling for the the Title from the skills section */
 .skillTitle {
     font-size: 3rem;
     font-weight: 600;
@@ -17,6 +19,7 @@
     margin-bottom: 1rem;
 }
 
+/* Styling for the container that has the list of skills */
 .skillList {
     margin: 1.5rem;
     width: 100vw;
@@ -24,6 +27,7 @@
     text-align: left;
 }
 
+/* Styling for each item from the skills section */
 .skillItem {
     background: #8AAAE5;
     border: 1px solid black;

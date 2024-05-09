@@ -1,3 +1,4 @@
+/* Overall styling for the about section */
 #about {
     overflow: hidden;
     width: 100vw;
@@ -11,6 +12,7 @@
     margin-bottom: 10rem;
 }
 
+/* Styling for the title from the about section */
 .aboutTitle {
     font-size: 3rem;
     font-weight: 600;
@@ -18,6 +20,7 @@
     margin-bottom: 1rem;
 }
 
+/* Styling for the container */
 .aboutList {
     margin: 1.5rem;
     width: 100vw;
@@ -25,6 +28,7 @@
     text-align: left;
 }
 
+/* Styling for each item from the projects section */
 .aboutItem {
     background: #8AAAE5;
     border: 1px solid black;
@@ -33,6 +37,7 @@
     margin-bottom: 1rem;
 }
 
+/* Styling for the description in each item */
 .aboutDesc {
     font-weight: 400;
     font-size: 1rem;

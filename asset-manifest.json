@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.b9e49629.css",
-    "main.js": "/Portfolio/static/js/main.85fcd02b.js",
+    "main.js": "/Portfolio/static/js/main.407eef8f.js",
     "static/media/reft.png": "/Portfolio/static/media/reft.79f3f6a80e6d1500624c.png",
     "static/media/AstroDex.png": "/Portfolio/static/media/AstroDex.af414c824eb6bda97dc0.png",
     "static/media/avatar.png": "/Portfolio/static/media/avatar.e8880bda7a42638c284a.png",
     "index.html": "/Portfolio/index.html",
     "main.b9e49629.css.map": "/Portfolio/static/css/main.b9e49629.css.map",
-    "main.85fcd02b.js.map": "/Portfolio/static/js/main.85fcd02b.js.map"
+    "main.407eef8f.js.map": "/Portfolio/static/js/main.407eef8f.js.map"
   },
   "entrypoints": [
     "static/css/main.b9e49629.css",
-    "static/js/main.85fcd02b.js"
+    "static/js/main.407eef8f.js"
   ]
 }

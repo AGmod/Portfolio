@@ -16,7 +16,7 @@ const Home = () => {
         <span className='homeDesc'>Hello! <br/> My name is <span className='devName'>Alejandro Guerrero</span> <br/> and I am a <span className='devName'>Software Developer</span></span>
 
         {/* Quick description */}
-        <p className='description'>I am a senior at Cal State University Fullerton <br/> and I have worked on different projects throughout my years of learning</p>
+        <p className='description'>I am a senior graduating from Cal State University Fullerton <br/> and I have worked on various projects throughout my years of learning</p>
       </div>
       <img src={avatar} alt='Avatar' className='avatar' />
     </section>
